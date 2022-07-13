@@ -12,7 +12,8 @@ function App() {
         <div className="container">
             <FeedbackList feedback={feedback} />
         </div>
-    </>)
+    </>
+    )
 }
 
 export default App
