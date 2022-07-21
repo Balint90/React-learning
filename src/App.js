@@ -6,6 +6,7 @@ import FeedbackData from "./data/FeedbackData"
 import FeedbackStats from "./components/FeedbackStats"
 import FeedbackForm from "./components/FeedbackForm"
 import { useState } from "react"
+import AboutIconLink from './components/AboutIconLink'
 import AboutPage from './pages/AboutPage'
 
 function App() {
@@ -42,7 +43,7 @@ function App() {
                     </Route>
                     <Route path='/about' element={<AboutPage />} />
                 </Routes>
-                
+                <AboutIconLink />
             </div>
         </Router>
     )
