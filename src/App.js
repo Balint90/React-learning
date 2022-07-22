@@ -31,7 +31,6 @@ function App() {
             <Router>
                 <Header />
                 <div className="container">
-                    
                     <Routes>
                         <Route 
                             exact 
@@ -41,7 +40,6 @@ function App() {
                                 <FeedbackStats feedback={feedback} />
                                 <FeedbackList feedback={feedback} handleDelete={deleteFeedBack} />
                             </>}>
-                            
                         </Route>
                         <Route path='/about' element={<AboutPage />} />
                     </Routes>
