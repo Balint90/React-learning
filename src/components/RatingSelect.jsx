@@ -15,7 +15,6 @@ function RatingSelect({select}) {
         select(+e.currentTarget.value)
     }
 
-
     return (
         <ul className="rating">
             <li>
