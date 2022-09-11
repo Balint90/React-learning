@@ -16,13 +16,3 @@ function Spinner() {
 }
 
 export default Spinner
-
-// import { loader } from '../assets/spinner.gif'
-
-// function Spinner() {
-//     return (
-//         
-//     )
-// }
-
-// export default Spinner
